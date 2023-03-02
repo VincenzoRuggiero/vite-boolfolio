@@ -18,4 +18,8 @@ export default {
 <style lang="scss">
 @use "./styles/general.scss" as *;
 @use "bootstrap/scss/bootstrap" as *;
+
+body {
+  background-color: #f5f7fa;
+}
 </style>
