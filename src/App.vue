@@ -1,18 +1,17 @@
 <script>
-import AppMain from "./components/AppMain.vue";
+import AppHeader from "./components/AppHeader.vue";
 
 export default {
   name: "App",
   components: {
-    AppMain,
+    AppHeader,
   },
 };
 </script>
 
 <template>
-  <main>
-    <AppMain />
-  </main>
+  <AppHeader />
+  <router-view></router-view>
 </template>
 
 <style lang="scss">
@@ -20,6 +19,6 @@ export default {
 @use "bootstrap/scss/bootstrap" as *;
 
 body {
-  background-color: #f5f7fa;
+  background-color: #66a0f6;
 }
 </style>
